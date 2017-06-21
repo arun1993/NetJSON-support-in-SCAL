@@ -1,0 +1,37 @@
+{ "objects": [
+        [ "DeviceConfiguration", {
+                "backend": "file",
+                "backend_data": {
+                        "type": "json",
+                        "file": "%device_file%",
+                        "key": "%parameter%"
+                },
+                "default_type": "string",
+                "parameters": {
+                        "General": {
+                                "backend": "file",
+                                "backend_data": {
+                                        "type": "json",
+                                        "file": "%device_file%",
+                                        "key": "%parameter%"
+                                }
+                        },
+                        "Interface1": {
+						backend": "file",
+                                "backend_data": {
+                                        "type": "json",
+                                        "file": "%device_file%",
+                                        "key": "%parameter%"
+                                }
+						},
+                        "Interface2": {
+						backend": "file",
+                                "backend_data": {
+                                        "type": "json",
+                                        "file": "%device_file%",
+                                        "key": "%parameter%"
+                                }
+						},
+                 }
+         }]
+]}
